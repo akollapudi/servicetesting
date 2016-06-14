@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites>
+  <testsuite errors="2" failures="0" hostname="miracle-PC" id="0" name="ProjectDetails" package="com.msb.utilities" skipped="0" tests="4" time="170.18" timestamp="2016-06-14T17:29:36">
+      <properties>
+          <property name="java.vendor" value="Oracle Corporation" />
+
+          <property name="env.MOZ_PLUGIN_PATH" value="C:\Program Files (x86)\Foxit Software\Foxit Reader\plugins\" />
+
+          <property name="sun.java.launcher" value="SUN_STANDARD" />
+
+          <property name="ant.file.MSBWorkSpace" value="C:\MSBWorkSpace\build.xml" />
+
+          <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+
+          <property name="env.PROMPT" value="$P$G" />
+
+          <property name="ant.file.type.MSBWorkSpace" value="file" />
+
+          <property name="os.name" value="Windows 7" />
+
+          <property name="env.FP_NO_HOST_CHECK" value="NO" />
+
+          <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_51\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_51\jre\classes" />
+
+          <property name="env.COMPUTERNAME" value="MIRACLE-PC" />
+
+          <property name="env.CommonProgramW6432" value="C:\Program Files\Common Files" />
+
+          <property name="env.ALLUSERSPROFILE" value="C:\ProgramData" />
+
+          <property name="sun.desktop" value="windows" />
+
+          <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+
+          <property name="ant.home" value="C:\apache-ant-1.9.7" />
+
+          <property name="java.runtime.version" value="1.7.0_51-b13" />
+
+          <property name="env.HOMEPATH" value="\Users\miracle" />
+
+          <property name="user.name" value="miracle" />
+
+          <property name="user.language" value="en" />
+
+          <property name="env.windows_tracing_flags" value="3" />
+
+          <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\bin" />
+
+          <property name="ant.project.default-target" value="build" />
+
+          <property name="ant.project.name" value="MSBWorkSpace" />
+
+          <property name="java.version" value="1.7.0_51" />
+
+          <property name="env.PROCESSOR_IDENTIFIER" value="Intel64 Family 6 Model 37 Stepping 5, GenuineIntel" />
+
+          <property name="user.timezone" value="" />
+
+          <property name="env.TEMP" value="C:\Users\miracle\AppData\Local\Temp" />
+
+          <property name="sun.arch.data.model" value="64" />
+
+          <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\endorsed" />
+
+          <property name="env._JAVACMD" value="C:\Program Files\Java\jdk1.7.0_51\bin\java.exe" />
+
+          <property name="sun.cpu.isalist" value="amd64" />
+
+          <property name="env.HOMEDRIVE" value="C:" />
+
+          <property name="sun.jnu.encoding" value="Cp1252" />
+
+          <property name="file.encoding.pkg" value="sun.io" />
+
+          <property name="file.separator" value="\" />
+
+          <property name="java.specification.name" value="Java Platform API Specification" />
+
+          <property name="java.class.version" value="51.0" />
+
+          <property name="user.country" value="US" />
+
+          <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_51\jre" />
+
+          <property name="env.PSModulePath" value="C:\Windows\system32\WindowsPowerShell\v1.0\Modules\" />
+
+          <property name="env.APPDATA" value="C:\Users\miracle\AppData\Roaming" />
+
+          <property name="env.PUBLIC" value="C:\Users\Public" />
+
+          <property name="env.windows_tracing_logfile" value="C:\BVTBin\Tests\installpackage\csilogfile.log" />
+
+          <property name="java.vm.info" value="mixed mode" />
+
+          <property name="env.ComSpec" value="C:\Windows\system32\cmd.exe" />
+
+          <property name="env.OS" value="Windows_NT" />
+
+          <property name="env.CommonProgramFiles" value="C:\Program Files\Common Files" />
+
+          <property name="ant.file" value="C:\MSBWorkSpace\build.xml" />
+
+          <property name="os.version" value="6.1" />
+
+          <property name="env.ProgramW6432" value="C:\Program Files" />
+
+          <property name="env._USE_CLASSPATH" value="no" />
+
+          <property name="path.separator" value=";" />
+
+          <property name="java.vm.version" value="24.51-b03" />
+
+          <property name="user.variant" value="" />
+
+          <property name="env.USERPROFILE" value="C:\Users\miracle" />
+
+          <property name="ant.library.dir" value="C:\apache-ant-1.9.7\lib" />
+
+          <property name="junit.output.dir" value="junit" />
+
+          <property name="env.JAVA_HOME" value="C:\Program Files\Java\jdk1.7.0_51" />
+
+          <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+
+          <property name="env.TMP" value="C:\Users\miracle\AppData\Local\Temp" />
+
+          <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+
+          <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+
+          <property name="user.script" value="" />
+
+          <property name="user.home" value="C:\Users\miracle" />
+
+          <property name="target" value="1.7" />
+
+          <property name="env.ProgramData" value="C:\ProgramData" />
+
+          <property name="env.SESSIONNAME" value="Console" />
+
+          <property name="env.ProgramFiles(x86)" value="C:\Program Files (x86)" />
+
+          <property name="java.specification.vendor" value="Oracle Corporation" />
+
+          <property name="java.vendor.url" value="http://java.oracle.com/" />
+
+          <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_51\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\apache-ant-1.9.7\bin;C:\Program Files\Java\jdk1.7.0_51\bin;." />
+
+          <property name="env.NUMBER_OF_PROCESSORS" value="4" />
+
+          <property name="java.vm.vendor" value="Oracle Corporation" />
+
+          <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+
+          <property name="ant.version" value="Apache Ant(TM) version 1.9.7 compiled on April 9 2016" />
+
+          <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner com.msb.utilities.ProjectDetails skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false formatter=org.apache.tools.ant.taskdefs.optional.junit.OutErrSummaryJUnitResultFormatter showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,C:\MSBWorkSpace\junit\TEST-com.msb.utilities.ProjectDetails.xml crashfile=C:\MSBWorkSpace\junitvmwatcher6761588375477074601.properties propsfile=C:\MSBWorkSpace\junit6028750871126671230.properties" />
+
+          <property name="java.class.path" value="C:\MSBWorkSpace\bin;C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext\junit-dep-4.11.jar;C:\apache-ant-1.9.7\lib\ant-launcher.jar;C:\apache-ant-1.9.7\lib\ant.jar;C:\apache-ant-1.9.7\lib\ant-junit.jar;C:\apache-ant-1.9.7\lib\ant-junit4.jar" />
+
+          <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+
+          <property name="ant.file.type" value="file" />
+
+          <property name="env.windir" value="C:\Windows" />
+
+          <property name="env.LOGONSERVER" value="\\MIRACLE-PC" />
+
+          <property name="java.vm.specification.version" value="1.7" />
+
+          <property name="env.PROCESSOR_ARCHITECTURE" value="AMD64" />
+
+          <property name="sun.os.patch.level" value="Service Pack 1" />
+
+          <property name="sun.cpu.endian" value="little" />
+
+          <property name="debuglevel" value="source,lines,vars" />
+
+          <property name="env.ANT_HOME" value="C:\apache-ant-1.9.7" />
+
+          <property name="env.ProgramFiles" value="C:\Program Files" />
+
+          <property name="java.io.tmpdir" value="C:\Users\miracle\AppData\Local\Temp\" />
+
+          <property name="env.PROCESSOR_REVISION" value="2505" />
+
+          <property name="env.CommonProgramFiles(x86)" value="C:\Program Files (x86)\Common Files" />
+
+          <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+
+          <property name="env.SystemRoot" value="C:\Windows" />
+
+          <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+
+          <property name="os.arch" value="amd64" />
+
+          <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_51\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+
+          <property name="env.LOCALAPPDATA" value="C:\Users\miracle\AppData\Local" />
+
+          <property name="user.dir" value="C:\MSBWorkSpace" />
+
+          <property name="line.separator" value="&#xd;&#xa;" />
+
+          <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+
+          <property name="env.PATHEXT" value=".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC" />
+
+          <property name="env.Path" value="C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\apache-ant-1.9.7\bin;C:\Program Files\Java\jdk1.7.0_51\bin" />
+
+          <property name="env.JRE_HOME" value="C:\Program Files\Java\jre7" />
+
+          <property name="basedir" value="C:\MSBWorkSpace" />
+
+          <property name="ant.java.version" value="1.7" />
+
+          <property name="ant.core.lib" value="C:\apache-ant-1.9.7\lib\ant.jar" />
+
+          <property name="env.USERNAME" value="miracle" />
+
+          <property name="source" value="1.7" />
+
+          <property name="env.SystemDrive" value="C:" />
+
+          <property name="file.encoding" value="Cp1252" />
+
+          <property name="env.USERDOMAIN" value="miracle-PC" />
+
+          <property name="java.specification.version" value="1.7" />
+
+          <property name="env.=C:" value="C:\MSBWorkSpace" />
+
+          <property name="ant.project.invoked-targets" value="build" />
+
+          <property name="env.PROCESSOR_LEVEL" value="6" />
+
+      </properties>
+
+      <testcase classname="com.msb.utilities.ProjectDetails" name="testAddMainProject" time="44.707" />
+
+      <testcase classname="com.msb.utilities.ProjectDetails" name="testUpdateProject" time="28.271" />
+
+      <testcase classname="com.msb.utilities.ProjectDetails" name="testAddSubProject" time="52.1">
+          <error type="java.lang.Exception">java.lang.Exception
+	at com.msb.utilities.ProjectDetails.testAddSubProject(ProjectDetails.java:364)
+</error>
+
+      </testcase>
+
+      <testcase classname="com.msb.utilities.ProjectDetails" name="testProjectSearch" time="44.676">
+          <error type="java.lang.Exception">java.lang.Exception
+	at com.msb.utilities.ProjectDetails.testProjectSearch(ProjectDetails.java:103)
+</error>
+
+      </testcase>
+
+      <system-out><![CDATA[running from Selenium
+Add Main Project addMainProject
+Location--->/C:/Program%20Files/Java/jdk1.7.0_51/jre/lib/ext/junit-dep-4.11.jar
+Location Path--->C:\MSBWorkSpace
+Entered writelog
+2016/06/14
+C:\MSBWorkSpace//report/2016_06_14.txt
+Time---->43
+diffMs==================================>43
+Inside if
+diffSec-->43000Min-->0Sec--->43
+2016/06/14
+C:\MSBWorkSpace//report/2016_06_14.html
+Update Project updateProject
+Location--->/C:/Program%20Files/Java/jdk1.7.0_51/jre/lib/ext/junit-dep-4.11.jar
+Location Path--->C:\MSBWorkSpace
+Entered writelog
+Time---->25
+diffMs==================================>25
+Inside if
+diffSec-->25000Min-->0Sec--->25
+Error in Add Sub Project Details .. 
+RULEID PATHaddSubProject.png
+Error Image pathC:\MSBWorkSpace\report\addSubProject.png
+FROM=======>C:\Users\miracle\AppData\Local\Temp\screenshot1428360044659724059.png
+TO=======>C:\MSBWorkSpace\report\addSubProject.png
+Destination file doesn't exist. Creating one!
+Add Sub ProjectProject addSubProject
+Location--->/C:/Program%20Files/Java/jdk1.7.0_51/jre/lib/ext/junit-dep-4.11.jar
+Location Path--->C:\MSBWorkSpace
+Entered writelog
+Time---->
+Error in Project Search .. 
+RULEID PATHsearchProject.png
+Error Image pathC:\MSBWorkSpace\report\searchProject.png
+FROM=======>C:\Users\miracle\AppData\Local\Temp\screenshot3116619301463312786.png
+TO=======>C:\MSBWorkSpace\report\searchProject.png
+Destination file doesn't exist. Creating one!
+Project Search searchProject
+Location--->/C:/Program%20Files/Java/jdk1.7.0_51/jre/lib/ext/junit-dep-4.11.jar
+Location Path--->C:\MSBWorkSpace
+Entered writelog
+Time---->
+]]></system-out>
+
+      <system-err><![CDATA[log4j:WARN No appenders could be found for logger (org.apache.http.client.protocol.RequestAddCookies).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Jun 14, 2016 11:01:39 PM org.openqa.selenium.remote.Augmenter extractRemoteWebDriver
+WARNING: Augmenter should be applied to the instances of @Augmentable classes or previously augmented instances only
+org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[9]/div[3]/ul[3]/li[4]"}
+Command duration or timeout: 30.20 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'miracle-PC', ip: '172.17.7.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+*** Element info: {Using=xpath, value=//div[9]/div[3]/ul[3]/li[4]}
+Session ID: 5050ed0f-3673-42ac-838d-c4b3bdd2ab39
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.msb.utilities.ProjectDetails.testAddSubProject(ProjectDetails.java:316)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[9]/div[3]/ul[3]/li[4]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'miracle-PC', ip: '172.17.7.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/miracle/AppData/Local/Temp/anonymous882674604933212753webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/miracle/AppData/Local/Temp/anonymous882674604933212753webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+Jun 14, 2016 11:02:25 PM org.openqa.selenium.remote.Augmenter extractRemoteWebDriver
+WARNING: Augmenter should be applied to the instances of @Augmentable classes or previously augmented instances only
+org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+Command duration or timeout: 30.26 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'miracle-PC', ip: '172.17.7.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Session ID: 5050ed0f-3673-42ac-838d-c4b3bdd2ab39
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:204)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:268)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:79)
+	at com.msb.utilities.ProjectDetails.testProjectSearch(ProjectDetails.java:67)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:38)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:535)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1182)
+	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1033)
+Caused by: org.openqa.selenium.StaleElementReferenceException: Element not found in the cache - perhaps the page has changed since it was looked up
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/stale_element_reference.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'miracle-PC', ip: '172.17.7.121', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_51'
+Driver info: driver.version: unknown
+	at <anonymous class>.fxdriver.cache.getElementAt(resource://fxdriver/modules/web-element-cache.js:8953)
+	at <anonymous class>.Utils.getElementAt(file:///C:/Users/miracle/AppData/Local/Temp/anonymous882674604933212753webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8546)
+	at <anonymous class>.fxdriver.preconditions.visible(file:///C:/Users/miracle/AppData/Local/Temp/anonymous882674604933212753webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:9585)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///C:/Users/miracle/AppData/Local/Temp/anonymous882674604933212753webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12257)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///C:/Users/miracle/AppData/Local/Temp/anonymous882674604933212753webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:12274)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/miracle/AppData/Local/Temp/anonymous882674604933212753webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:603)
+]]></system-err>
+
+  </testsuite>
+</testsuites>

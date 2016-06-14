@@ -1,0 +1,11 @@
+Start Time : Mon Jun 13 18:22:14 IST 2016
+Test Count : 0
+Page : Search Account
+Rule Id : searchAccount
+ Description : 
+Success : Completed searchAccount
+			, Search Account 
+Time : 58
+
+
+Search Account = {Success=1}End Time : Mon Jun 13 18:23:13 IST 2016

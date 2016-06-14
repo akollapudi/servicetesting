@@ -1,0 +1,316 @@
+Start Time : Fri May 20 16:06:16 IST 2016
+Test Count : 0
+Page : Search Account
+Rule Id : searchAccount
+ Description : 
+Success : Completed searchAccount
+			, Search Account 
+Time : 57
+
+
+Search Account = {Success=1}
+Test Count : 2
+Page : Add Account
+Rule Id : addAccount
+ Description : 
+Success : Completed addAccount
+			 Add Account 
+Time : 17
+
+
+Add Account = {Success=1}Search Account = {Success=1}
+Test Count : 3
+Page : Edit Account
+Rule Id : editAccount
+ Description : 
+Success : Completed editAccount
+			, Edit Account 
+Time : 29
+
+
+Add Account = {Success=1}Edit Account = {Success=1}Search Account = {Success=1}
+Test Count : 4
+Page : Assign Account
+Rule Id : assignAccount
+ Description : 
+Error :   in Assign Account .. org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@id='header_top']/div/div/div[2]/ul/li/a"}
+Command duration or timeout: 30.22 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Akhlaque', ip: '172.17.7.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_80'
+*** Element info: {Using=xpath, value=//div[@id='header_top']/div/div/div[2]/ul/li/a}
+Session ID: 80e1af67-56fa-483e-bb80-fead8ab58119
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.Handler.createThrowable(Handler.java:204)
+	at org.openqa.selenium.remote.Handler.throwIfResponseFailed(Handler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.msb.util.MSBUtils.userLogin(MSBUtils.java:78)
+	at com.msb.account.AssignAccount.testTransferAccount(AssignAccount.java:124)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at com.msb.util.SeleniumRun.main(SeleniumRun.java:31)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@id='header_top']/div/div/div[2]/ul/li/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Akhlaque', ip: '172.17.7.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_80'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/miracle/AppData/Local/Temp/anonymous3735764852996493877webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/miracle/AppData/Local/Temp/anonymous3735764852996493877webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+
+User Id : Admin
+Fair Id : 
+Query : 
+Success : Completed assignAccount
+			
+Time : 
+
+
+Add Account = {Success=1}Edit Account = {Success=1}Search Account = {Success=1}Assign Account = {Error=1}
+Test Count : 5
+Page : Assign Account
+Rule Id : assignAccount
+ Description : 
+Error :   in Assign Account .. org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//button[2]"}
+Command duration or timeout: 30.12 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Akhlaque', ip: '172.17.7.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_80'
+*** Element info: {Using=xpath, value=//button[2]}
+Session ID: 80e1af67-56fa-483e-bb80-fead8ab58119
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.Handler.createThrowable(Handler.java:204)
+	at org.openqa.selenium.remote.Handler.throwIfResponseFailed(Handler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.msb.account.AssignAccount.testCopyAccount(AssignAccount.java:57)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at com.msb.util.SeleniumRun.main(SeleniumRun.java:31)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//button[2]"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Akhlaque', ip: '172.17.7.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_80'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/miracle/AppData/Local/Temp/anonymous3735764852996493877webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/miracle/AppData/Local/Temp/anonymous3735764852996493877webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+
+User Id : Admin
+Fair Id : 
+Query : 
+Success : Completed assignAccount
+			
+Time : 
+
+
+Add Account = {Success=1}Edit Account = {Success=1}Search Account = {Success=1}Assign Account = {Error=2}
+Test Count : 6
+Page : Requirement Dashboard
+Rule Id : requirementDashboard
+ Description : 
+Success : Completed requirementDashboard
+			, Requirement Dashboard 
+Time : 30
+
+
+Add Account = {Success=1}Edit Account = {Success=1}Search Account = {Success=1}Assign Account = {Error=2}Requirement Dashboard = {Success=1}
+Test Count : 7
+Page : Project Dashboard
+Rule Id : requirementDashboard
+ Description : 
+Success : Completed requirementDashboard
+			 Project Dashboard 
+Time : 9
+
+
+Add Account = {Success=1}Edit Account = {Success=1}Search Account = {Success=1}Project Dashboard = {Success=1}Assign Account = {Error=2}Requirement Dashboard = {Success=1}
+Test Count : 8
+Page : Requirement Dashboard
+Rule Id : requirementDashboard
+ Description : 
+Success : Completed requirementDashboard
+			 Requirement Dashboard 
+Time : 7
+
+
+Add Account = {Success=1}Edit Account = {Success=1}Search Account = {Success=1}Project Dashboard = {Success=1}Assign Account = {Error=2}Requirement Dashboard = {Success=2}
+Test Count : 9
+Page : Cost Center Dashboard
+Rule Id : costCenterDashboard
+ Description : 
+Success : Completed costCenterDashboard
+			, Cost Center Dashboard 
+Time : 7
+
+
+Add Account = {Success=1}Cost Center Dashboard = {Success=1}Edit Account = {Success=1}Search Account = {Success=1}Project Dashboard = {Success=1}Assign Account = {Error=2}Requirement Dashboard = {Success=2}
+Test Count : 10
+Page : Reset User Password
+Rule Id : resetUserPassword
+ Description : 
+Success : Completed resetUserPassword
+			 Reset User Password 
+Time : 11
+
+
+Add Account = {Success=1}Cost Center Dashboard = {Success=1}Edit Account = {Success=1}Search Account = {Success=1}Reset User Password = {Success=1}Project Dashboard = {Success=1}Assign Account = {Error=2}Requirement Dashboard = {Success=2}
+Test Count : 11
+Page : Change My Password
+Rule Id : changeMyPassword
+ Description : 
+Success : Completed changeMyPassword
+			 Change My Password 
+Time : 17
+
+
+Add Account = {Success=1}Cost Center Dashboard = {Success=1}Edit Account = {Success=1}Search Account = {Success=1}Change My Password = {Success=1}Reset User Password = {Success=1}Project Dashboard = {Success=1}Assign Account = {Error=2}Requirement Dashboard = {Success=2}
+Test Count : 12
+Page : Action Authorization
+Rule Id : actionAuthorization
+ Description : 
+Success : Completed actionAuthorization
+			 Action Authorization 
+Time : 32
+
+
+Add Account = {Success=1}Cost Center Dashboard = {Success=1}Edit Account = {Success=1}Search Account = {Success=1}Action Authorization = {Success=1}Change My Password = {Success=1}Reset User Password = {Success=1}Project Dashboard = {Success=1}Assign Account = {Error=2}Requirement Dashboard = {Success=2}
+Test Count : 13
+Page : Admin
+Rule Id : homeRedirect
+ Description : 
+Error :   in Home Redirect .. org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@id='header_top']/div/div/div[2]/ul/li/a"}
+Command duration or timeout: 32.65 seconds
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Akhlaque', ip: '172.17.7.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_80'
+*** Element info: {Using=xpath, value=//div[@id='header_top']/div/div/div[2]/ul/li/a}
+Session ID: 80e1af67-56fa-483e-bb80-fead8ab58119
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities [{platform=WINDOWS, acceptSslCerts=true, javascriptEnabled=true, cssSelectorsEnabled=true, databaseEnabled=true, browserName=firefox, handlesAlerts=true, nativeEvents=false, webStorageEnabled=true, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=35.0.1}]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at org.openqa.selenium.remote.Handler.createThrowable(Handler.java:204)
+	at org.openqa.selenium.remote.Handler.throwIfResponseFailed(Handler.java:156)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:599)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:352)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:449)
+	at org.openqa.selenium.By$ByXPath.findElement(By.java:357)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:344)
+	at com.msb.util.MSBUtils.userLogin(MSBUtils.java:78)
+	at com.msb.utilities.HomeRedirect.testSiteAdminLogin(HomeRedirect.java:43)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runners.Suite.runChild(Suite.java:127)
+	at org.junit.runners.Suite.runChild(Suite.java:26)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:160)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:138)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:117)
+	at com.msb.util.SeleniumRun.main(SeleniumRun.java:37)
+Caused by: org.openqa.selenium.NoSuchElementException: Unable to locate element: {"method":"xpath","selector":"//div[@id='header_top']/div/div/div[2]/ul/li/a"}
+For documentation on this error, please visit: http://seleniumhq.org/exceptions/no_such_element.html
+Build info: version: '2.45.0', revision: '32a636c', time: '2015-03-05 22:01:35'
+System info: host: 'Akhlaque', ip: '172.17.7.228', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.7.0_80'
+Driver info: driver.version: unknown
+	at <anonymous class>.FirefoxDriver.prototype.findElementInternal_(file:///C:/Users/miracle/AppData/Local/Temp/anonymous3735764852996493877webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:10271)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///C:/Users/miracle/AppData/Local/Temp/anonymous3735764852996493877webdriver-profile/extensions/fxdriver@googlecode.com/components/driver-component.js:603)
+
+User Id : Site-Administrator
+Fair Id : 
+Query : 
+Success : Completed homeRedirect
+			
+Time : 
+
+
+Add Account = {Success=1}Cost Center Dashboard = {Success=1}Edit Account = {Success=1}Search Account = {Success=1}Admin = {Error=1}Action Authorization = {Success=1}Change My Password = {Success=1}Reset User Password = {Success=1}Project Dashboard = {Success=1}Assign Account = {Error=2}Requirement Dashboard = {Success=2}End Time : Fri May 20 16:11:54 IST 2016

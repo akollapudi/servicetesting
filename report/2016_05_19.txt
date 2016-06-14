@@ -1,0 +1,11 @@
+Start Time : Thu May 19 22:30:20 IST 2016
+Test Count : 0
+Page : Account Upload
+Rule Id : accountUpload
+ Description : 
+Success : Completed accountUpload
+			 Account Upload 
+Time : 71
+
+
+Account Upload = {Success=1}End Time : Thu May 19 22:31:32 IST 2016
